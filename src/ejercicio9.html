@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
-    <script src="ejercicio9.js"></script>
+    <link rel="icon" href="/public/javascript.svg" />
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="../style/style.css">
+    
 </head>
 <body>
+    <h2>Lista de Tareas con LocalStorage</h2>
+    <p>Objetivo del ejercicio: Practicar persistencia de datos con localStorage.</p>
+    <p>Ejercicio: Crea una aplicación de lista de tareas.</p>
+    <ul>
+        <li>Cada tarea debe incluir un texto y un checkbox para marcarla como completada.</li>
+        <li>Las tareas se deben guardar en localStorage para que persistan incluso si la página se recarga.</li>
+        <li>Debe incluir un botón para limpiar todas las tareas completadas y actualizar el localStorage.</li>
+    </ul>
+    <input type="text" id="tareaInput" placeholder="Nueva tarea">
+    <button id="agregar">Agregar</button>
+    <ul id="lista"></ul>
+    <button id="limpiar">Limpiar tareas completadas</button>
     <a href="../index.html">Volver</a>
+    <script src="ejercicio9.js"></script>
 </body>
 </html>

@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
-    <script src="ejercicio5.js"></script>
+    <link rel="icon" href="/public/javascript.svg" />
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+    <h2>Calculadora Sencilla</h2>
+    <p>Objetivo del ejercicio: Practicar la manipulación de formularios, eventos, y lógica básica de JavaScript</p>
+    <p>Ejercicio: Crea una página con dos campos de entrada de números y cuatro botones: "Sumar", "Restar", "Multiplicar", y "Dividir".</p>
+    <ul>
+        <li>
+            Al hacer clic en cualquiera de los botones, debe mostrarse el resultado de la operación en un área de texto o debajo de los botones
+        </li>
+        <li>
+            Asegúrate de validar los datos para evitar errores (como división por cero o entradas vacías).
+        </li>
+    </ul>
+    <div>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+    </div>
+    <div>
+        <button id="sumar">Sumar</button>
+        <button id="restar">Restar</button>
+        <button id="multiplicar">Multiplicar</button>
+        <button id="dividir">Dividir</button>
+    </div>
+    <input type="text" id="resultado" readonly placeholder="Resultado">
     <a href="../index.html">Volver</a>
+    <script src="ejercicio5.js"></script>
 </body>
 </html>
